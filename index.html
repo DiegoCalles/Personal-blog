@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- Fuentes de google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="Text/css" href="css/bootstrap.min.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body >
+
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <div class="container ">
+            <a href="#" class="navbar-brand">
+                <!-- OJO: el Nombre debe estar en negritas <strong> -->
+                <span class="h6 color-light"> <strong>Diego</strong> Calles</span>
+            </a>
+
+            <button type="button" class="navbar-toggler navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu-desplegable" 
+                    aria-expanded="false"  aria-controls="menu-desplegable" aria-label="Desplegar menu principal">
+            </button>
+
+            <div class="collapse navbar-collapse " id="menu-desplegable">
+                <ul class="navbar-nav color ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">¿Quién soy?</a></li>
+                    <li class="nav-item"><a href="#proyecto" class="nav-link">Proyectos</a></li>
+                    
+
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- sección ¿Quién soy? -->
+
+    <section class="quien-soy py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- para mobile -->
+                <div class="col-12 col-md-6">
+                    <img src="./images/desarrollador.svg" alt="soy el desarrollador" class="img-fluid mb-3">
+                </div>
+                <div class="col-12  col-md-6 text-center">
+                    <!-- clase display-3 para incrementar el size del texto  y el fw-bold para ponerla en negrita-->
+                    <h2 class="display-3 fw-bold text-primary">¿Quién soy? </h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repudiandae voluptatem aliquam quod sit alias
+                        omnis! Totam reprehenderit ducimus sapiente dolor,
+                        cum, asperiores libero labore, error dolorem saepe doloribus voluptas.
+                    </p>
+                    <!-- btn-lg para hacerlo mas grnde -->
+                    <a href="#" class="btn btn-primary btn-lg">Leer más</a>
+                </div>
+               
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- sección filosofía -->
+
+    <section class="filosofia py-4 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center " >
+                    <img src="./images/Avatar.png" alt="avatar" class=" border rounded-circle img-fluid w-25  mb-3 mb-4 bg-white">
+                    
+                </div>
+                <div class="col-12 text-center">
+                    <p class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolor in accusamus dolorum accusantium et?
+                       Aspernatur veritatis quia blanditiis deserunt sunt atque error a tenetur! Provident in dolorem quisquam obcaecati.
+                    </p>
+                    <p class="h5 fst-italic">-Diego Calles</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- seccion Mis Proyectos -->
+                    
+    <section class="mis-proyectos py-4">
+        <div class="container">
+            <h2 class="text-center display-3 fw-bold my-3 pb-4">Mis Proyectos</h2>
+            <div class="row">
+                <!-- img  p-1 -->
+                
+                <article class="col-12 col-md-6 col-lg-3 my-2 ">
+                    <div class="card">
+                        <img class="card-img-top img-fluid h-100" src="./images/proyecto1.png" alt="proyecto 1">
+                        <div class="card-body text-md-center">
+                            <h5 class="card-title" id="proyecto">Proyecto 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary btn-focus-shadow">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- img  p-2 -->
+
+                <article class="col-12 col-md-6 col-lg-3 my-2 ">
+                    <div class="card ">
+                        <img class="card-img-top img-fluid h-100" src="./images/proyecto2.png" alt="proyecto 2">
+                        <div class="card-body text-md-center">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary btn-focus-shadow">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- img  p-3 -->
+
+                <article class="col-12 col-md-6 col-lg-3 my-2 ">
+                    <div class="card">
+                        <img class="card-img-top img-fluid h-100" src="./images/proyecto3.png" alt="proyecto 3">
+                        <div class="card-body text-md-center">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary btn-focus-shadow">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- img  p-4 -->
+
+                <article class="col-12 col-md-6 col-lg-3 my-2 ">
+                    <div class="card">
+                        <img class="card-img-top img-fluid h-100" src="./images/proyecto4.png" alt="proyecto 4">
+                        <div class="card-body text-md-center">
+                            <h5 class="card-title">Proyecto 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary btn-focus-shadow">Ver proyecto</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+    </section>
+       
+    <!-- footer -->
+    <footer class="bg-dark">
+        <div class="text-center text-white  ">
+            <p class="py-3">Copyright © 2022 | Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+     <!-- Archivos bootstrap.js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

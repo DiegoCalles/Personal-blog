@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*---------------------------------------------
+    Estilos de mi diseño
+-----------------------------------------------*/
+html {
+  font-size: 13px;
+}
+
+body {
+  color: rgb(131, 129, 129);
+}
+
+.bg-primary {
+  background-color: #ff401c !important;
+}
+
+.text-primary {
+  color: #ff401c !important;
+}
+
+.btn-primary {
+  background-color: #ff401c !important;
+  border-color: #e82500 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e82500 !important;
+  border-color: #e82500 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
+}
+
+.btn-primary:active {
+  background-color: #b51d00 !important;
+  border-color: #b51d00 !important;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(81, 80, 80, 0.2784313725);
+}/*# sourceMappingURL=styles.css.map */

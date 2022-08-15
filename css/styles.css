@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*---------------------------------------------
+    Estilos de mi diseño
+-----------------------------------------------*/
+html {
+  font-size: 13px; }
+
+body {
+  color: #838181;
+  font-family: 'Open Sans', sans-serif; }
+
+.bg-primary {
+  background-color: #ff401c !important; }
+
+.text-primary {
+  color: #ff401c !important; }
+
+.btn-primary {
+  background-color: #ff401c !important;
+  border-color: #e82500 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #cf2100 !important;
+  border-color: #cf2100 !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important; }
+
+.btn-primary:active {
+  background-color: #b51d00 !important;
+  border-color: #b51d00 !important; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #51505047;
+          box-shadow: 0 0 10px #51505047; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=styles.css.map */

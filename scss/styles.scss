@@ -1,0 +1,55 @@
+/*---------------------------------------------
+    Estilos de mi diseño
+-----------------------------------------------*/
+$primary:#ff401c;
+$texto : rgb(131, 129, 129);
+html{
+    font-size: 13px;
+}
+
+body{
+    color:$texto;
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-primary {
+    
+    background-color: $primary!important;
+}
+.text-primary{
+    color: $primary !important;
+}
+
+.btn-primary{
+    background-color: $primary !important;
+    border-color:darken($primary,10) !important;
+   
+}
+// variables y funciones de Sass
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color:darken($primary,15)!important;
+    border-color:darken($primary,15) !important;
+    
+    
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgba($primary, .5) !important;
+}
+
+.btn-primary:active{
+    background-color:darken($primary,20)!important;
+    border-color:darken($primary,20) !important;
+   
+    
+   
+}
+
+.card:hover{
+    box-shadow: 0 0 10px #51505047;
+}
+
+// media queries (funcion para hacer que la fuente crezca a 16px el (1 rem) cuando la pantalla supere los 768 px
+@media(min-width:768px){
+    html{font-size: 16px;}
+}
